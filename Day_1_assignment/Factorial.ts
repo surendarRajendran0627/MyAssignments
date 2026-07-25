@@ -19,11 +19,11 @@ function factorial(n: number): number {
 
 console.log(factorial(0));
 console.log(factorial(1));
-console.log(factorial(5));
-console.log(factorial(10));
+console.log(factorial(6));
+console.log(factorial(8));
 
 try {
-    console.log(factorial(-3));
+    console.log(factorial(-5));
 } catch (error) {
     console.error("Error:", (error as Error).message);
 }
